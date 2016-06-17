@@ -1,9 +1,7 @@
 //
 //  Utils.c
-//  SampleBroadcaster-Swift
 //
 //  Created by 成杰 on 16/6/17.
-//  Copyright © 2016年 videocore. All rights reserved.
 //
 
 #include "Utils.h"
