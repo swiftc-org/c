@@ -16,12 +16,12 @@ void printHex(const void * const ptr, const unsigned len)
             printf("<");
         }
         
-        uint8_t u8 = p[i];
+        unsigned char uc = p[i];
         
-        if (u8 < 0x10) {
-            printf("0%x", u8);
+        if (uc < 0x10) {
+            printf("0%x", uc);
         } else {
-            printf("%x", u8);
+            printf("%x", uc);
         }
         
         if (i != 0 && i != len-1 && (i+1) % 4 == 0) {
