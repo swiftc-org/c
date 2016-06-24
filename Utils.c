@@ -24,7 +24,7 @@ void printHex(const void * const ptr, const unsigned len)
             printf("%x", u8);
         }
         
-        if (i != 0 && i != len && (i+1) % 4 == 0) {
+        if (i != 0 && i != len-1 && (i+1) % 4 == 0) {
             printf(" ");
         }
         
